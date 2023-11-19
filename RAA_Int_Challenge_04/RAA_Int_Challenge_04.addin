@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>RAA_Int_Challenge_04 - Get document from linked file</Text>
+    <Description>Some description for RAA_Int_Challenge_04</Description>
+    <Assembly>RAA_Int_Challenge_04.dll</Assembly>
+    <FullClassName>RAA_Int_Challenge_04.CommandGetDocFromLinkedFile</FullClassName>
+    <ClientId>f5b30106-3d92-46ac-9ed4-32417878cc45</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Text>RAA_Int_Challenge_04 - Get Model Groups from selected file</Text>
+    <Description>Some description for RAA_Int_Challenge_04</Description>
+    <Assembly>RAA_Int_Challenge_04.dll</Assembly>
+    <FullClassName>RAA_Int_Challenge_04.CommandGetModelGroupsFromSelectedFile</FullClassName>
+    <ClientId>81766a25-dfc7-4779-84ec-d676a94efbf4</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+    <AddIn Type="Command">
+	    <Text>RAA_Int_Challenge_04 - Copy Walls and Generic Models</Text>
+	    <Description>Some description for RAA_Int_Challenge_04</Description>
+	    <Assembly>RAA_Int_Challenge_04.dll</Assembly>
+	    <FullClassName>RAA_Int_Challenge_04.CommandCopyWallsAndGenericModels</FullClassName>
+	    <ClientId>55020E7F-3618-4996-83C6-51070C7E2EDD</ClientId>
+	    <VendorId>com.YOUR COMPANY NAME</VendorId>
+	    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+    </AddIn>
+  <AddIn Type="Application">
+    <Name>RAA_Int_Challenge_04</Name>
+    <Assembly>RAA_Int_Challenge_04.dll</Assembly>
+    <FullClassName>RAA_Int_Challenge_04.App</FullClassName>
+    <ClientId>f6ecb9e3-39c8-4665-92ef-b2ffb7e083ee</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+</RevitAddIns>
